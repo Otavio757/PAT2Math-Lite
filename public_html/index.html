@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>PAT2Math Lite</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="css/fractions.css"/>
+        <link rel="stylesheet" href="css/paper.css"/>
+        <link rel="stylesheet" href="css/pat2math.css" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="lib/jquery-ui/themes/base/jquery-ui.css" type="text/css"/>
+        <link rel="stylesheet" href="css/guider-2.1.0.min.css" type="text/css"/>
+
+        <style>
+        input[type="text"] {
+          text-align: center;
+	  font-size: 24px;
+	  font-weight: bold;
+	  background-color: transparent !important;
+    	  height: 27px;
+    	  width: 50px;
+    	  min-width: 50px;
+    	  max-width: 700px;
+	}
+        </style>
+    </head>
+    <body>
+    
+    	
+		<br>
+
+	<div id="note">
+        <span id="amountPoints">0 pontos</span>
+        <br><br>
+
+        <button id="status" class="btn" onclick="var width = 600; if (screen.width < 620) width = screen.width - 20; status(width);">Status</button>
+    </div>
+    
+    <div id="hintBox">
+        <div id="hintText"></div>
+    </div>
+     <div id="papers" style="text-align: center; margin-top: -119px">
+   		<div id="paper-1"  style="display: inline-block;"> 		    
+                    <div id="logo" title="PAT2Math =D"><img src="images/logo.png"></div>
+
+                    <div id="lines">
+
+        	</div>       
+     	</div>
+     </div>
+     
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+     <script src="lib/jquery-ui-1.9.1/ui/minified/jquery-ui.min.js"></script>
+     <script src="lib/jquery-1.8.2.min.js"></script>
+     <script src="lib/bootstrap/bootstrap.js"></script>  
+     <script src="js/guider-2.1.0.min.js"></script>
+     <script src="js/modalWindows.js"></script>
+     <script src="js/utility.js"></script>
+     <script src="js/corrector.js"></script>
+     <script src="js/hintBank.js"></script>
+     <script src="js/object.js"></script>
+     <script src="js/campaignMode.js"></script>
+     <script src="js/resolver.js"></script>
+     <script src="js/exerciseGenerator.js"></script>
+     <script src="js/index.js"></script>
+    </body>
+    
+</html>

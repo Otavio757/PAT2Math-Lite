@@ -1,0 +1,92 @@
+#paper-1 {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -5px 0 10px #888888;
+    /* float: right; */
+    height: 1309px;
+    max-width: 700px;
+    width: 100%;
+    margin-right: 6px;
+    background-color: #fff;
+    border-color:  #ddd;
+    margin-bottom: 20px;
+}
+
+#paper-1 .hLine {
+    border-color: #666;
+}
+
+#paper-1 #date {
+    border-color: #aaa;
+    color: #bbb;
+}
+
+#paper-1 #dateMonthAux {
+    border-color: #aaa;
+}
+
+#paper-1 #logo {
+    background-image: url('images/logo.png');
+/*     cursor: pointer; */
+}
+
+.correct {
+    margin-left: 85%;
+    margin-top: 20px;
+}
+#lines, .lines{
+    border-left: 1px solid #FA8072;
+    height: 90%;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    /*background-color: #FFF8F8;*/
+}
+
+.liHoverTrash {
+    color: crimson;
+}
+
+.hLine{
+    border-top: 1px solid #BDB76B;
+    margin-left: -7%;
+    text-align: left;
+    width:107%;
+    height: 86px;
+/*     font-family: 'Mr Dafoe', cursive; */
+    font-size: 1.2em;
+}
+
+.hLineAux{
+    border-top: 1px solid #FFFFE0;               
+    margin: 10px 0px 0px 15px;
+    width:1px;
+    color: transparent;
+}
+
+#logo, .logo {    
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 185px;
+    height: 50px
+}
+
+#points {
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #777;
+    font-size: 20px;
+}
+
+.completed-exercise {
+    margin-left: 43%;
+}
+
+.next-exercise {
+    cursor: pointer;
+    margin-left: 34%;
+    margin-top: 20px;
+}
